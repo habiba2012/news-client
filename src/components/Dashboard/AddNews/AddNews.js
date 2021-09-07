@@ -82,4 +82,4 @@ const NewsBlogs = () => {
     );
 };
 
-export default AddBlogs;
+export default NewsBlogs;

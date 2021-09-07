@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import Header from '../Header';
+import Header from "../Header/Header";
 
 const NewsDetail = () => {
     const { _id } = useParams();

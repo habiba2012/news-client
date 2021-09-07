@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-const ManageBlog = () => {
+const ManageNews = () => {
     return (
         <div >
-         <h1>mmmmmm</h1>
+            <h1>Manage News</h1>
         </div>
     );
 };
 
-export default ManageBlog;
+export default ManageNews;

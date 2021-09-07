@@ -12,7 +12,7 @@ import {
 import { faFileAlt } from "@fortawesome/free-regular-svg-icons";
 import AddBlogs from "../AddNews/AddNews";
 import './Dashboard.css';
-import Header from "../../Header";
+import Header from "../../Header/Header";
 import ManageBlog from "../ManageNews/ManageNews";
 
 
@@ -38,12 +38,12 @@ const Dashboard = () => {
               </li>
               <li>
                 <Link to="/dashboard/addBlogs" >
-                  <FontAwesomeIcon icon={faFileAlt} /> <span>Add Blogs</span>
+                  <FontAwesomeIcon icon={faFileAlt} /> <span>Add News</span>
                 </Link>
               </li>
               <li>
                 <Link to="/dashboard/manageBlog">
-                  <FontAwesomeIcon icon={faCog} /> <span>Manage blogs</span>
+                  <FontAwesomeIcon icon={faCog} /> <span>Manage News</span>
                 </Link>
               </li>
             </ul>

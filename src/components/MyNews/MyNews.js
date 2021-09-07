@@ -6,7 +6,7 @@ import { selectUserInput, setBlogData } from "../../features/userSlice";
 import { auth, provider } from '../auth/firebase'
 import { setActiveUser, setUserLogOutState, selectUserEmail, selectUserName } from '../../features/userSlice'
 
-import './MyBlog.css';
+import './MyNews.css';
 import NewsPage from "../NewsPage/NewsPage";
 
 const MyNews = () => {
